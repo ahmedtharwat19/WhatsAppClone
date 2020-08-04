@@ -10,9 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WhatsAppUsers"></activity>
-        <activity android:name=".ModeratorsActivity"></activity>
-        <activity android:name=".LogInActivity"></activity>
+        <activity android:name=".WhatsAppChatActivity"></activity>
+        <activity android:name=".WhatsAppUsers" />
+        <activity android:name=".ModeratorsActivity" />
+        <activity android:name=".LogInActivity" />
         <activity android:name=".SignUpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="com.parse.SERVER_URL"

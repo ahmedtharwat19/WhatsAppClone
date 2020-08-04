@@ -50,7 +50,10 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
             transactionToMainActivity();
             finish();
         }
+/*        if (ParseUser.getCurrentUser() != null) {
 
+            ParseUser.getCurrentUser().logOut();
+        }*/
 
     }
 

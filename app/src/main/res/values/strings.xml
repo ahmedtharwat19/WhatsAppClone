@@ -15,4 +15,6 @@
     <!-- Change the following strings as required -->
     <string name="back4app_app_id">ped0HVG679H1PspcqwonzBPpplVkzTewCq3VT1Fo</string>
     <string name="back4app_client_key">ELdOcxcwXJy67KiWifTgZT4fCrnRKkbsveGqo4z0</string>
+    <string name="type_your_message_here">Type your message here...</string>
+    <string name="send_messsage">Send Messsage</string>
 </resources>
